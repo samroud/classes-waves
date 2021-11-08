@@ -68,11 +68,11 @@ class SubSubGris{
 
 class SubSubSubGris{
     constructor(size){
-        this.size = size/1.5
-        this.radius = this.size/2
-        this.posX = 0
-        this.posY = 0
-        this.a = 0
+      this.size = size/1.5
+      this.radius = this.size/2
+      this.posX = 0
+      this.posY = 0
+      this.a = 0
 
     }
     show(){
