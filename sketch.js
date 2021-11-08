@@ -1,12 +1,20 @@
 let grid = []
+let myFont
+function preload(){
+  myFont = loadFont('Capital-SemiBold.otf')
+}
 
 
 function setup() {
   createCanvas(500, 500)
   frameRate(30)
 
+  textFont(myFont)
+  textSize(15)
+  textAlign(CENTER)
+
   //GRID
-  let gridSize = 15
+  let gridSize = 10
   let cellSize = width/gridSize
  
   for (let col = 0; col < gridSize; col += 1){

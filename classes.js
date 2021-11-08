@@ -80,8 +80,10 @@ class SubSubSubGris{
         this.posY = cos(this.a) * this.radius
         push()
         translate(this.posX, this.posY)
-        fill(255)
+        fill(255,0,0)
         ellipse(this.size*3.5, this.size*3.5, this.size)
+        fill(255)
+        text(round(this.posX,2), this.size*3.5, this.size*3.5)
         pop()
         this.a += TAU/90
     }
